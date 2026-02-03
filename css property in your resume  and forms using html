@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume and Form with CSS</title>
+</head>
+<style>
+<body>
+   body {font-family: Arial;
+        background-color: #f2f2f2;
+}
+.box{
+    background: white;
+    width: 60%;
+    margin: 20px auto;
+    padding:20px;
+    border-radius: 10px;
+}
+h2{
+    color: darkblue;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}
+label{
+    font-weight: bold;
+}
+input,textarea,select{
+    background-color: green;
+    color: white;
+    margin: 6px 0;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+</style>
+</body>
+</html>
+
+<div class="box">
+    <h2>My Resume</h2>
+    <p><b>Name:</b>Jaheer Hussain</p>
+    <p><b>Degree:</b>Diploma in Electrical and Electronics Engineering</p>
+    <p><b>Skills:</b>Java,Postsql,Html,Css</p>
+    <p><b>Career Goal:</b>To become a Software Developer</p>
+</div>
+<div class="box">
+    <h2>Registration Form</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text">
+
+        <label>Password:</label>
+        <input type="password">
+
+        <label>Gender:</label>
+        <input type="radio" name="g"> Male
+        <input type="radio" name="g"> Female
+
+        <label>Course:</label>
+        <select>
+            <option>BCA</option>
+            <option>B.Sc</option>
+            <option>B.Tech</option>
+        </select>
+        <label>Address:</label>
+        <textarea></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
