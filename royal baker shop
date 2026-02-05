@@ -1,0 +1,6 @@
+weights = [1.2, 0.5, 2.3, 1.8]
+
+total_weight = sum(weights)
+heaviest = max(weights)
+
+print((total_weight, heaviest))
