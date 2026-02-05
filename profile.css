@@ -1,0 +1,54 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+
+}
+.card{
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: transform 0,3s ease;
+
+
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+ .name {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .role {
+      color: #555;
+      margin: 5px 0;
+    }
+
+    .desc {
+      font-size: 14px;
+      color: #666;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        width: 90%;
+      }
+    }
+
+    
