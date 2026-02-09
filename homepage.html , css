@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="./homepage.css">
+</head>
+<body>
+    <video class="video-bg" autoplay muted loop>
+        <source src="full Project [2CF5122].mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <h2>My Website</h2>
+        <nav>
+            <a href="home.html">#Home</a>
+            <a href="profile.html">#profile</a>
+            <a href="login.html">#logout</a>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>Welcome to Home Page</h1>
+    </div>
+</body>
+</html>
+
+<---css--->
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-video{
+    position: fixed;
+    top: 0;
+    left: 5px;
+    min-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+header{
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.content h1{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border-radius: 10px;
+}
