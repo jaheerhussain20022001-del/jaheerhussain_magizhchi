@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniWiki - Knowledge Hub</title>
+    <link rel="stylesheet" href="./wikipedia.css">
+</head>
+<body>
+    <div class="container">
+        <div class="article">
+            <h1>Web Development</h1>
+            
+
+            <p>
+                Web Development refers to the process of creating and maintaining websites.
+                It includes design, coding, and performance optimization.
+            </p>
+
+            <h2>Frontend Development</h2>
+
+            <p>
+                Frontend Development focuses on what users see and interact with in a browser.
+                It mainly uses HTML,CSS, and JavaScript.
+            </p>
+
+            <h2>Backend Development</h2>
+
+            <p>
+                Backend Development handles server logic, database, and application flow.
+                It ensures data is processed correctly.
+            </p>
+
+            <h2>Key Technologies</h2>
+            <ul>
+                <li>HTML - Structure</li>
+                <li>CSS - Styling</li>
+                <li>JavaScript - Interactivity</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+<!--wikipedia.css-->
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f6f6f6;
+}
+
+header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 24px;
+}
+
+header input{
+    padding: 6px;
+    width: 200px;
+}
+
+.container{
+    width: 70%;
+    margin: 30px auto;
+}
+
+.article{
+    background-color: #ffffff;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 4px;
+}
+
+.article h2{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ul{
+    margin-left: 20px;
+}
+
