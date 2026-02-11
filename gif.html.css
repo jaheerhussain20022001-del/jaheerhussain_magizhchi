@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaheer Tech</title>
+    <link rel="stylesheet" href="logo1.css">
+</head>
+<body>
+    <div class="gif">
+        <img src="WhatsApp Video 2026-02-11 at 8.11.14 PM.mp4" alt="gifof">
+    </div> 
+    
+</body>
+</html>
+
+<---css--->
+body{
+     height: 200vh;
+    margin: 0;
+    background:black;
+}
+.gifof{
+     position: fixed;
+   top: 20px;
+   right: 20px;
+   width: 120px;
+}
+.gifof img{
+     width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
