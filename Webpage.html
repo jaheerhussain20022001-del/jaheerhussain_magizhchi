@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form to Table</title>
+    <link rel="stylesheet" href="Webpage.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Registration Form</h2>
+
+        <form id="myForm">
+            <input type="text" id="name" placeholder="Enter Name" required>
+            <input type="text" id="age" placeholder="Enter Age" required>
+            <input type="text" id="course" placeholder="Enter Course" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Course</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="Webpage.js"></script>
+    
+</body>
+</html>
